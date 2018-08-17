@@ -10,7 +10,7 @@ table{
 }
 td{
     border: solid 2px black;
-    spacing: 2px;
+    border-spacing: 2px;
 }
 th{
     border: solid 2px black;
