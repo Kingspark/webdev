@@ -1,0 +1,19 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "Exercising Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "route",
+    "subdirectories"
+  ],
+  "author": "kingspark-Technology",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

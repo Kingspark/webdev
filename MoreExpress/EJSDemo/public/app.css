@@ -1,0 +1,17 @@
+body{
+    background-color: a2d2e2;
+}
+
+table{
+    border: solid 2px black;
+    table-layout: auto;
+    width: 100px;
+    margin: 0 auto;
+}
+td{
+    border: solid 2px black;
+    spacing:2px;    
+}
+th{
+    border: solid 2px black;
+}

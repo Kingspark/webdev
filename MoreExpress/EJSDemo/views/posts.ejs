@@ -1,0 +1,19 @@
+<link rel="stylesheet" href ="app.css">
+<h1>Welcome to posts page!</h1>
+
+<table>
+        <tr>
+            <th>Author</th>
+            <th>Title</th>
+        </tr>
+        <% posts.forEach(function(posts){ %>
+        <tr>
+            <td><%= posts.author %></td>
+            <td><%= posts.title %></td>
+        </tr>
+        <% });%>
+</table>
+<!--<% posts.forEach(function(posts){ %>-->
+<!--<li><%= posts.author %></li>-->
+<!--<% });%>-->
+
