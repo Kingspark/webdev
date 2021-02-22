@@ -9,7 +9,7 @@ app.get("/", function(req, res){
 });
 app.get("/posts", function(req, res){
     var posts = [
-        {author: "Test", title: "The incredibles"},
+        {author: "Test", title: "The Incredible"},
         {author: "Stranger", title: "The test"},
         {author: "Stranger", title: "The test"},
         {author: "Stranger", title: "The test"},
@@ -22,7 +22,7 @@ app.get("/posts", function(req, res){
         {author: "Stranger", title: "The test"}
         ];
         res.render("posts", {posts: posts});
-})
+});
 app.listen(3000, function(){
     console.log("Server is started to serve you! @ 3000");
-})
+});
